@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Jogo Mario</title>
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
 </head>
 <body>
     <div id="container">
         <header id="cabecalho-principal">
             <div id="pontuacao">
                 <img src="img/moeda.png" height="20px" alt="">
-                Moedas: 0
+                Moedas:&nbsp;<span id="pontuacao-atual">0</span>
             </div>
 
             <div id="nome-jogo">
@@ -23,7 +24,7 @@
         <section id="corpo">
             <div id="esquerda">
                     <h3>Fale o nome da cor em inglês</h3>
-                    <span>Yellow</span>
+                    <span id="cor"></span>
 
                 <div id="cor-atual">
 
