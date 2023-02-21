@@ -44,3 +44,44 @@ header#cabecalho-principal {
     font-size: 30px;
     margin-right: 22px;
 }
+
+section#corpo div#esquerda {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 12px;
+
+}
+
+#direita {
+
+}
+
+#corpo {
+    display: flex;
+    margin-top: 20px;
+}
+
+section#corpo div#esquerda div#cor-atual {
+    height: 150px;
+    width: 160px;
+    border: 10px solid black;
+    border-radius: 12px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#btn-responder {
+    background-color: transparent;
+    color: #Fff;
+    border: 3px solid white;
+    padding: 5px 45px;
+    border-radius: 8px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+}
